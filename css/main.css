@@ -263,8 +263,8 @@ button:focus,
 	}
 	
 	button, .button-primary {
-		padding-left: 12px;
-		padding-right: 12px;
+		padding-left: 24px;
+		padding-right: 24px;
 	}
 	
 }
@@ -330,19 +330,25 @@ button:focus,
 
 @media only screen and (max-width: 1440px) {
 	
-	.hero-image-holder img {
-		height: 700px;
-		width: auto;
-	}
-	
 	.hero-content {
 		padding-bottom: 80px;
 		padding-top: 80px;
-		padding-left: 120px;
-		padding-right: 120px;
+		padding-left: 11%;
+		padding-right: 11%;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 1284px) {
+	
+	.hero-content {	
+		padding-left: 4%;
+		padding-right: 4%;
 	}
 	
 }
+
 
 @media only screen and (max-width: 1024px) {
 	
@@ -431,6 +437,10 @@ button:focus,
 	margin-bottom: 0;
 }
 
+.section-how {
+	padding-bottom: 0;
+}
+
 .section-how .column-center {
 	width: 49.9%;
 	margin-left: auto;
@@ -451,8 +461,13 @@ button:focus,
 	margin-bottom: 0;
 }
 
+.info .buttons {
+	display: flex;
+}
+
 .info .buttons a {
 	transition: opacity 0.4s ease;
+	cursor: pointer;
 }
 
 .info .buttons a:hover {
@@ -528,6 +543,7 @@ button:focus,
 
 .faq-answer {
 	display: none;
+	margin-top: 12px;
 }
 
 .faq-answer p {
@@ -545,9 +561,7 @@ button:focus,
 
 @media only screen and (max-width: 1440px) {
 	
-	.info .buttons img {
-		width: 44%;
-	}
+	
 }
 
 @media only screen and (max-width: 1024px) {
@@ -583,12 +597,23 @@ button:focus,
 		padding-right: 0;
 	}
 	
+	.info .buttons {
+		display: inline-block;
+	}
+	
+	.info .buttons img {
+		width: 44%;
+	}
 }
 
 @media only screen and (max-width: 767px) {
 	
 	.section {
 		padding-bottom: 120px;
+		padding-top: 120px;
+	}
+	
+	.section-share .entry-title {
 		padding-top: 120px;
 	}
 	
@@ -607,13 +632,7 @@ button:focus,
 	}
 	
 	.info .buttons a {
-		padding-bottom: 16px;
-		display: block;
-		margin-right: 0;
-	}
-	
-	.info .buttons img {
-		width: 100%;
+		margin-right: 12px;
 	}
 
 }
@@ -623,6 +642,18 @@ button:focus,
 	.entry-title {
 		padding-left: 24px;
 		padding-right: 24px;
+	}
+}
+
+@media only screen and (max-width: 312px) { 	
+	.info .buttons a {
+		padding-bottom: 16px;
+		display: block;
+		margin-right: 0;
+	}
+	
+	.info .buttons img {
+		width: 100%;
 	}
 }
 
