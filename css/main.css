@@ -9,9 +9,6 @@
   --green-hover: #6CDF85;
   --dark: #252539;
   --dark-blue: #042D53;
-  
-  --yellow: #EBC44F; 
-  --light-yellow: #FDFFF0;
 }
 
 
@@ -78,6 +75,7 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Lato", sans-serif;
 	color: var(--dark);
+	color: #252539;
 }
 
 h1 {
@@ -101,6 +99,7 @@ h2.with-green-line:after {
  	margin-top: 48px;
 	display: block;
 	background-color: var(--green);
+	background-color: #83E699;
 	width: 96px;
 	height: 8px;
 }
@@ -117,6 +116,7 @@ h3.with-green-line:before {
  	margin-bottom: 48px;
 	display: block;
 	background-color: var(--green);
+	background-color: #83E699;
 	width: 96px;
 	height: 8px;
 }
@@ -162,12 +162,15 @@ ul li {
 
 a {
 	color: var(--dark);
+	color: #252539;
 	text-decoration: none;
 }
 
 button, .button-primary {
-	background: var(--green);
+	background-color: var(--green);
+	background-color: #83E699;
 	color: var(--dark);
+	color: #252539;
 	text-transform: uppercase;
 	font-weight: 700;
 	padding-left: 56px;
@@ -190,7 +193,8 @@ button:hover,
 button:focus,
 .button-primary:hover,
 .button-primary:focus {
-    background: var(--green-hover);
+    background-color: var(--green-hover);
+    background-color: #6CDF85;
 }
 
 .button-primary i {
@@ -203,10 +207,12 @@ button:focus,
 
 .button-text {
 	color: var(--dark-blue);
+	color: #042D53;
 }
 
 .button-text:hover {
 	color: var(--dark);
+	color: #252539;
 }
 
 .icon-open {
@@ -297,6 +303,7 @@ button:focus,
 
 .hero {
 	background-color: var(--dark);
+	background-color: #252539;
 	overflow: hidden;
 }
 
@@ -674,6 +681,7 @@ button:focus,
 footer {
 	padding: 24px 48px;
 	background-color: var(--green);
+	background-color: #83E699;
 	display: flex;
 	justify-content: space-between;
 }
@@ -711,6 +719,7 @@ footer ul li:last-child {
 
 footer ul li a:hover {
 	color:  var(--dark-blue);
+	color: #042D53;
 }
 
 @media only screen and (max-width: 767px) { 
@@ -751,14 +760,17 @@ footer ul li a:hover {
 
 .green-color {
 	color: var(--green);
+	color: #83E699;
 }
 
 .dark-blue-color {
 	color: var(--dark-blue);
+	color: #042D53;
 }
 
 .dark-color {
 	color: var(--dark);
+	color: #252539;
 }
 
 .white-color, .white-color p, .white-color h3, .white-color h4, .white-color h2, .white-color h1 {
@@ -766,15 +778,18 @@ footer ul li a:hover {
 }
 
 .has-bg-green-color {
-	background-olor: var(--green);
+	background-color: var(--green);
+	background-color: #83E699;
 }
 
 .has-bg-light-green-color {
 	background-color: var(--light-green);
+	background-color: #EBF4EF;
 }
 
 .has-bg-dark-color {
 	background-color: var(--dark);
+	background-color: #252539;
 }
 
 .is-bold {
